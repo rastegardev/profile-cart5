@@ -1,0 +1,179 @@
+* {
+ padding: 0;
+ margin: 0;
+}
+body {
+ display: flex;
+ flex-flow: column;
+ align-items: center;
+ justify-content: center;
+ background-color: #000000;
+ background-color: #e5e5f7;
+ opacity: 0.8;
+ background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+ background-size: 10px 10px;
+}
+.container {
+ padding: 10px;
+ margin: 20px;
+ width: 350px;
+ height: 600px;
+ border-radius: 15px;
+ position: relative;
+ display: flex;
+ flex-flow: column;
+ align-items: center;
+ justify-content: center;
+ font-family: 'Fredoka One', fantasy;
+ background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+ animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+.fa-long-arrow-alt-left {
+ cursor: pointer;
+ font-size: 30px;
+ position: absolute;
+ top: 20px;
+ left: 20px;
+}
+.fa-long-arrow-alt-left:hover {
+ color: #00A8FF;
+}
+.fa-cog {
+ cursor: pointer;
+ font-size: 25px;
+ position: absolute;
+ top: 20px;
+ right: 20px;
+}
+.fa-cog:hover {
+ color: #00A8FF;
+}
+.fa-heart {
+ cursor: pointer;
+ font-size: 25px;
+ position: absolute;
+ top: 20px;
+ right: 55px;
+}
+.fa-heart:hover {
+ color: #FF0000;
+}
+.profile-img {
+ width: 160px;
+ border-radius: 50%;
+ position: absolute;
+ top: 20px;
+}
+.title {
+ font-size: 2.5rem;
+ font-weight: 500;
+ letter-spacing: 2px;
+ position: absolute;
+ top: 185px;
+}
+.dec {
+ padding: 20px;
+ text-align: center;
+ font-size: 16px;
+ line-height: 30px;
+ position: absolute;
+ top: 220px;
+}
+.social-button {
+ width: 360px;
+ height: 70px;
+ display: flex;
+ z-index: 10;
+ overflow: auto;
+ white-space: nowrap;
+ position: absolute;
+ top: 310px;
+}
+button {
+ padding: 10px;
+ margin: 5px;
+ width: 200px;
+ height: 55px;
+ color: #FFFFFF;
+ font-size: 1.25rem;
+ font-weight: 500;
+ border: none;
+ border-radius: 100px;
+ font-family: 'Fredoka One', fantasy;
+}
+.button-instagram {
+ background: linear-gradient(to right, rgb(236, 72, 153), rgb(239, 68, 68), rgb(245, 158, 11));
+}
+.fa-instagram {
+ margin: 5px;
+}
+.button-telegram {
+ background: #0088CC;
+}
+.fa-telegram-plane {
+ margin: 5px;
+}
+.button-twitter {
+ background: #00acee;
+}
+.fa-twitter {
+ margin: 5px;
+}
+.button-github {
+ background: linear-gradient(to left bottom, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
+}
+.fa-github {
+ margin: 5px;
+}
+.button-linkedin {
+ background: #0077b5;
+}
+.fa-linkedin {
+ margin: 5px;
+}
+.workphoto{
+ width: 250px;
+ position: absolute;
+ bottom: 0px;
+}
+.copyright {
+ font-size: 13px;
+ position: absolute;
+ bottom: 30px;
+}
+.about {
+ font-size: 13px;
+ position: absolute;
+ bottom: 15px;
+}
+.about a {
+ color: #FF0000;
+ text-decoration: none;
+}
